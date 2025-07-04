@@ -7,7 +7,7 @@
 #searchs{
     position: relative;
     margin-top: 8px;
-    height:50%;
+    height:9dvb;
     width: 100%;
 }
 #search{
@@ -17,9 +17,10 @@
 }
 #searchbtn{
     border: 2px transparent;
-    margin-top: auto;
+    margin-top: 5%;
     margin-bottom: auto;
     margin-left: .9%;
+    height: 9dvb;
 
 }
 #booklist{
@@ -48,7 +49,7 @@
     border: 5px dotted rgb(209, 217, 225);
     position: relative;
     margin-bottom: 5%;
-    width: 100%;
+    width: 25dvb;
     text-align: center;
     background-color: rgb(220, 190, 190);
     border-radius: 15px 1px 15px;
