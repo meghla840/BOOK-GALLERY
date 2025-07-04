@@ -2,20 +2,24 @@
     display: flex;
     background-color: rgb(224, 195, 206);
     border-radius: 10px 30px 10px;
+    position: relative;
 }
 #searchs{
+    position: relative;
     margin-top: 8px;
-    height:40px;
-    width: 290px;
+    height:50%;
+    width: 100%;
 }
 #search{
-    margin-top: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
 }
 #searchbtn{
-    border: 2px cadetblue;
-    margin-top: 25px;
-     margin-left: 5px;
+    border: 2px transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: .9%;
 
 }
 #booklist{
@@ -27,28 +31,36 @@
     width: 30px;
     margin-bottom: 5px;
 }
-#navbooks{
+#navbooks {
     display: flex;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
+
 #ul1{
-    margin-right: 8%;
+    margin-right: 18%;
     margin-left: 8%;
     
 }
 #ul1 li{
     border: 5px dotted rgb(209, 217, 225);
+    position: relative;
     margin-bottom: 5px;
-    width: 350px;
+    width: 200%;
     text-align: center;
     background-color: rgb(220, 190, 190);
     border-radius: 15px 1px 15px;
 }
+#ul2{
+    margin-right: 18%;
+    margin-left: 8%;
+}
+
 #ul2 li{
     border: 5px dotted rgb(209, 217, 225);
-    margin-bottom: 5px;
-    width: 350px;
+    margin-bottom: 2%;
+    width: 260%;
     text-align: center;
     background-color: rgb(220, 190, 190);
     border-radius: 1px 15px 1px;
@@ -71,8 +83,10 @@ div{
     background-color: #d7bbc6;
     border: 10px solid rgb(230, 216, 219);
     box-shadow: 10px 10px 10px;
-    height: 300px;
-    width: 200px;
+    height: auto;
+     width: 35%; 
+    max-width: 250px;
+    min-width: 180px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -81,18 +95,19 @@ div{
     
 }
 .card img{
-    width: 80px;
-    height: auto;
-    margin-bottom: 10px;
-    margin-left: 60px;
+     width: 40%;
+    height: 50%;
+    margin: 0 auto 10px;
     box-shadow: 5px 5px rgb(57, 53, 53);
 }
+
+
 h2{
     text-align: center;
-    margin: 50px;
+    margin: 5%;
     text-align: center;
     font-family: 'Georgia', serif;
-    font-size: 28px;
+    font-size: 1.75rem;;
     color: #5c4400;
     letter-spacing: 1.5px; /* dreamy spacing */
     border-bottom: 1px solid #998e77;
@@ -105,15 +120,15 @@ P{
     font-size: 18px;
 }
 .booksdescription{
-    margin: 10px;
-    padding: 25px;
+    margin: 5%;
+    padding: .9%;
     background-color: rgb(230, 222, 237);
     border: 10px 5px rgb(198, 198, 225);
     box-shadow: 5px 8px;
 }
 #cont{
-    padding: 50px 150px 150px;
-    margin-top: 120px;
+    padding: 40px 5%;
+    margin-top: 10%;
     background-color: color-mix(in srgb, rgb(205, 166, 166) 50%, skyblue 10%);
     gap: 2px;
     letter-spacing: normal;
@@ -122,8 +137,8 @@ P{
     justify-content: center;
 }
 #footer{
-    margin: 10px;
-    padding: 25px;
+    margin: 5%;
+    padding: .9%;
 
 }
 ul{
