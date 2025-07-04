@@ -39,28 +39,30 @@
 }
 
 #ul1{
-    margin-right: 18%;
-    margin-left: 8%;
+    margin-right: auto;
+    margin-left: auto;
+   
     
 }
 #ul1 li{
     border: 5px dotted rgb(209, 217, 225);
     position: relative;
-    margin-bottom: 5px;
-    width: 200%;
+    margin-bottom: 5%;
+    width: 100%;
     text-align: center;
     background-color: rgb(220, 190, 190);
     border-radius: 15px 1px 15px;
 }
 #ul2{
-    margin-right: 18%;
-    margin-left: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
 #ul2 li{
     border: 5px dotted rgb(209, 217, 225);
-    margin-bottom: 2%;
-    width: 260%;
+    margin-bottom: 5%;
+    width: 100%;
     text-align: center;
     background-color: rgb(220, 190, 190);
     border-radius: 1px 15px 1px;
@@ -107,7 +109,8 @@ h2{
     margin: 5%;
     text-align: center;
     font-family: 'Georgia', serif;
-    font-size: 1.75rem;;
+    font-size: clamp(1.2rem, 4vw, 2.5rem);
+    font-weight: 600;
     color: #5c4400;
     letter-spacing: 1.5px; /* dreamy spacing */
     border-bottom: 1px solid #998e77;
@@ -117,7 +120,7 @@ h2{
 }
 P{
     text-align: justify;
-    font-size: 18px;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
 }
 .booksdescription{
     margin: 5%;
@@ -157,4 +160,7 @@ a{
 }
 .card p{
     text-align: center;
+}
+h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
 }
