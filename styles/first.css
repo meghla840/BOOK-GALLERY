@@ -18,6 +18,10 @@
      margin-left: 5px;
 
 }
+#booklist{
+    display: flex;
+    flex-direction: column;
+}
 #sbtn{
     height: 30px;
     width: 30px;
@@ -25,12 +29,12 @@
 }
 #navbooks{
     display: flex;
-    margin-bottom: 70px;
-    margin-top: 70px;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 #ul1{
-    margin-right: 100px;
-    margin-left: 200px;
+    margin-right: 8%;
+    margin-left: 8%;
     
 }
 #ul1 li{
